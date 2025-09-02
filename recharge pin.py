@@ -11,4 +11,4 @@ encoded_list.append(splited_recharge_pin[-1])   # keep last one as it is
 
 output = " ".join(encoded_list)
 
-print(output)   # ✅ print only once, outside the loop
+print(output)   
