@@ -1,3 +1,6 @@
+#make calculator class where different method like
+#addition,subtraction,multiplication first this only
+
 class calculator:
     def  addition(self, a, b):
         return a + b
