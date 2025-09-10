@@ -68,7 +68,7 @@ while True:
 
     elif choice == "6":
         val = input("Enter value: ")
-        # check if it's number or not
+        
         try:
             num = float(val)
             print("Yes, it is a number:", m.is_num(num))
