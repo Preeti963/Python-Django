@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body style="font-family: Arial; background-color: #f9f9f9;">
+
+    <h2>Registration Form</h2>
+
+    <form style="background: white; padding: 20px; width: 320px; border-radius: 10px; box-shadow: 0px 0px 5px gray;">
+        
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" required><br><br>
+        
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+        
+        <label>Password:</label><br>
+        <input type="password" name="password" required><br><br>
+        
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female<br><br>
+        
+        <label>Contact No.:</label><br>
+        <input type="tel" name="contact" required><br><br>
+        
+        <label>Course:</label><br>
+        <select name="course">
+            <option>Python & Django</option>
+            <option>Web Development</option>
+            <option>Data Science</option>
+            <option>Artificial Intelligence</option>
+        </select><br><br>
+        
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
