@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Page</title>
+    <style>
+        body {
+            font-family: Arial;
+            max-width: 600px;
+            margin: auto;
+            background-image: url("/Users/preeti/Desktop/Python Dj/Background .png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #333;
+        }
+
+        .form-box {
+            background: rgba(255, 255, 255, 0.9); /* white with slight transparency */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .form-box input, .form-box textarea {
+            width: 95%;
+            padding: 8px;
+            margin: 5px 0 15px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-box button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form-box button:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Preeti Magar</h1>
+    <p>Student | Aspiring Web Developer</p>
+
+    <img src="/Users/preeti/Desktop/Python Dj/my photo.jpg" alt="My Photo" width="200" style="border-radius:10px;">
+
+    <h2>About Me</h2>
+    <p>I recently passed my +2 and I am learning Python and Django. Aside from coding, I love art and the music.</p>
+
+    <h2>Social Links</h2>
+    <ul>
+       <li><a href="https://github.com/Preeti963/Python-Journey" target="_blank">GitHub</a></li>
+       <li><a href="https://www.linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a></li>
+       <li><a href="mailto:youremail@example.com">Email</a></li>
+    </ul>
+
+    <h2>Contact Form</h2>
+    <div class="form-box">
+        <form>
+            <label>Name:</label><br>
+            <input type="text" name="name"><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email"><br>
+
+            <label>Message:</label><br>
+            <textarea name="message" rows="4"></textarea><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+</body>
+</html>
